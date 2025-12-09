@@ -94,7 +94,7 @@ def generate_explanation(prompt):
 
     client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="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",
     )
     
     response = client.chat.completions.create(
